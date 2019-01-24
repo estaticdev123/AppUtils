@@ -1,6 +1,6 @@
-# Project Title
+# AppUtils
 
-One Paragraph of project description goes here
+AppUtil Library use for common method that useful on all projects.
 
 ## Getting Started
 
