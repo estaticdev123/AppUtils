@@ -4,12 +4,10 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Configuration;
-import android.graphics.Point;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.util.Log;
-import android.view.Display;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +25,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 
-public class AppUtils {
+public class Utils {
     private static String TAG = "data";
     private static int screenWidth = 0;
 
@@ -248,5 +246,4 @@ public class AppUtils {
             view.setVisibility(View.INVISIBLE);
         }
     }
-
 }
