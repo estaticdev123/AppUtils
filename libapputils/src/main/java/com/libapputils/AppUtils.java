@@ -231,4 +231,22 @@ public class AppUtils {
     }
 
 
+    public static void visible(View... views) {
+        for (View view : views) {
+            view.setVisibility(View.VISIBLE);
+        }
+    }
+
+    public static void gone(View... views) {
+        for (View view : views) {
+            view.setVisibility(View.GONE);
+        }
+    }
+
+    public static void invisible(View... views) {
+        for (View view : views) {
+            view.setVisibility(View.INVISIBLE);
+        }
+    }
+
 }
