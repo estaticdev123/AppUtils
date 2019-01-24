@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-# Add your project build.gradle
+##### Add your project build.gradle
 
 ```
 allprojects {
@@ -18,7 +18,7 @@ allprojects {
                 }
         }
 ```
-# Add your App build.gradle
+##### Add your App build.gradle
 
 ```
 dependencies {
@@ -29,7 +29,7 @@ dependencies {
 
 ## Deployment
 
-# Utils.showToast(this,"Message");
+##### Utils.showToast(this,"Message");
 
 
 
