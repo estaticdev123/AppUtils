@@ -29,7 +29,17 @@ dependencies {
 
 ## Deployment
 
-##### Utils.showToast(this,"Message");
+##### Example
+###### Display Tost
+Utils.showToast(this,"Message");
+
+###### Check Internet connection
+Utils.hasInternet(this,"Internet connection not available");
+
+###### Load Image
+ImageUtils.displayImage(this,"ImagePath",imageView,R.drawable.background);
+
+
 
 
 
