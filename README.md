@@ -1,10 +1,10 @@
 # AppUtils
 
-AppUtil Library use for common method that useful on all projects.
+AppUtil Library use for common method that useful on all projects.and some common library include so don't need to add that library in your projects. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
@@ -30,13 +30,13 @@ dependencies {
 ## Deployment
 
 ##### Example
-###### Display Tost
+##### Display Tost
 - Utils.showToast(this,"Message");
 
-###### Check Internet connection
+##### Check Internet connection
 - Utils.hasInternet(this,"Internet connection not available");
 
-###### Load Image
+##### Load Image
 - ImageUtils.displayImage(this,"ImagePath",imageView,R.drawable.background);
 
 
